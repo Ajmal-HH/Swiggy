@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/* ---------header----------- */
+.header{
+    width: 100%;
+    height: 540px;
+    background: red;
+    display: flex;
+}
+.headerleft{
+    width: 750px;
+    height: 540px;
+    background: white;
+
+}
+.headerdiv1{
+    width:750px ;
+    height: 150px;
+    display: flex;
+}
+
+.headerlogo{
+    height: 60px;
+    width: 188px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.headerp{
+    margin-top: 80px;
+    margin-left: 270px;
+    font-size: 16px;
+    font-family: arial, "Helvetica Neue", sans-serif;
+    cursor: pointer;
+}
+.headerp:hover{
+    color: orange;
+}
+.signup{
+    width: 110px;
+    height: 37px;
+    font-size: 16px;
+    font-family: arial, "Helvetica Neue", sans-serif;
+    background: black;
+    color: white;
+    margin-top: 70px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.headerdiv2{
+    height: 120px;
+    width: 750px;
+
+}
+.headerh1{
+margin-left: 75px;
+font-size: 40px;
+font-family: arial, "Helvetica Neue", sans-serif;
+margin-top: 10px;
+
+}
+.headerh3{
+    font-family: arial, "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-left: 75px;
+    margin-top: 14px;
+    columns: #686b78;
+
+
+}
+.headerdiv3{
+    width: 750px;
+    height: 90px;
+    margin-top: 10px;
+    display: flex;
+}
+.inputlable{
+    margin-left: 75px;
+    height: 60px;
+    width:475px ;
+    border-color: orange;
+    border-style: solid;
+    font-size: 15px;
+    padding: 13px;
+
+}
+.findfood{
+    width: 135px;
+    height: 60px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+}
+h4{
+    color: #a9abb2;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.headerp1{
+    font-size: 16px;
+    font-family: arial, "Helvetica Neue", sans-serif;
+    margin-left: 75px;
+    margin-top: 15px;
+    cursor: pointer;
+    columns: #686b78;
+}
+.rimage{
+    height: 540px;
+    width: 590px;
+}
+
+/* ----------first row---------- */
+.header1{
+    height: 400px;
+    width: 100%;
+    background: #2b1e16;
+    display: flex;
+}
+.header1div1{
+    height: 400px ;
+    width: 430px;
+}
+.image2{
+    width: 116px;
+    height: 212px;
+    margin-left: 140px;
+}
+.header1p{
+    text-align: center;
+    margin-top: 20px;
+    color: #e0cbc1;
+}
+
+.header1h4{
+    margin-left: 105px;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    font-family: arial, "Helvetica Neue", sans-serif;
+}
+.header1div2{
+    height: 400px ;
+    width: 430px;
+}
+.header1div3{
+    height: 400px ;
+    width: 430px;
+
+}
+.header1pp{
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #e0cbc1;
+
+}
+/* ------------second row--------- */
+.header2{
+    height: 570px;
+    width: 100%;
+    background:white;
+    display: flex;
+    
+}
+.header2div1{
+    width: 630px;
+    height: 570px;
+}
+.header2hh1{
+    font-size: 40px;
+    font-family: arial, "Helvetica Neue", sans-serif;
+    margin-left: 75px;
+    padding-top: 150px;
+}
+.header2p{
+    font-size: 20px;
+    margin-left: 75px;
+    margin-top: 25px;
+    color: #7e808c;
+    font-family: arial, "Helvetica Neue", sans-serif;
+
+}
+.header2image2{
+   width: 500px;
+   height: 70px;
+   margin-top: 70px;
+   margin-left: 55px;
+   display: flex;
+}
+.secrowimg{
+    width: 175px;
+    height: 55px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.header2right{
+    width: 715px;
+    height: 570px;
+
+}
+#image7{
+width: 315px;
+height: 410px;
+margin-bottom: 160px;
+ 
+ 
+}
+.header2img4{
+    height: 408px;
+    width: 315px;
+    margin-top: 162px;
+}
+
+/* --------footer1--------- */
+
+
+.footer1{
+    width: 100%;
+    height: 450px;
+    background: black;
+    display: flex;
+    color: white;
+}
+.fhe1{
+    margin-left: 75px;
+    color: #808080;
+    cursor: pointer;
+}
+.fhe2{
+    margin-left: 220px;
+    color: #808080;
+    cursor: pointer;
+
+
+}
+.fhe3{
+    margin-left: 220px;
+    color: #808080;
+    cursor: pointer;
+
+}
+li{
+    list-style: none;
+    line-height: 30px;
+    font-family: arial, "Helvetica Neue", sans-serif;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.list1{
+    margin-left: -75px;
+    margin-top: 60px;
+}
+.list2{
+    margin-left: -70px;
+    margin-top: 60px;
+}
+.list3{
+    margin-left: -50px;
+    margin-top: 60px;
+}
+
+.list4{
+    margin-top: 55px;
+    margin-right: 40px;
+
+}
+.image10 {
+    cursor: pointer;
+  padding: 10px;  
+
+}
+.image11{
+    cursor: pointer;
+    padding: 10px;    
+
+}
+
+/* --------footer2--------- */
+.footer2{
+    width: 100%;
+    height: 500px;
+    background: black;
+    display: flex;
+    color: white;
+    
+}
+.footerh4{
+    margin-left: 75px;
+    margin-top: 20px;
+    color: #808080;
+    font-size: 15px;
+    font-family: arial, "Helvetica Neue", sans-serif;
+    cursor: pointer;
+
+}
+.f2list1{
+    margin-left: -120px;
+    margin-top: 60px;
+    
+
+}
+.f2list2{
+    flex: 1;
+    margin-top: 60px;
+    margin-left: 180px;
+
+}
+.f2list3{
+    flex: 1;
+    margin-top: 60px;
+
+}
+.f2list4{
+    flex: 1;
+    margin-top: 60px;
+
+}
+/* -------main footer-------- */
+.main-footer{
+    width: 100%;
+    height: 100px;
+    background: black;
+    display: flex;
+}
+.footerdiv1{
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerdiv2{
+    width: 450px;
+    height: 100px;
+}
+.footerdiv22h3{
+    font-family: arial, "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.footerdiv3{
+    width: 450px;
+    height: 100px;
+}
+.image9{
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+
+  
+}
+.footerdiv2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.footerdiv3{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  
+
+}
+.footerimage{
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.footerimage:hover{
+    width: 31px;
+    height: 31px;
+}
+hr{
+    color: white;
+}
